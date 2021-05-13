@@ -22,7 +22,7 @@ p1 = 0
 p2 = 0
 p3 = 0
 
-def check_int(str_num):
+def check_int(str_num): 
     try:
         return int(str_num)
     except:
@@ -168,4 +168,7 @@ class HeartCheck(App):
         return sm
 
 app = HeartCheck()
+
 app.run()
+
+print("Hello, people!"
